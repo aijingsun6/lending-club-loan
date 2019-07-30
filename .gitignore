@@ -1,0 +1,5 @@
+.idea
+*.iml
+venv
+loan.csv
+.ipynb_checkpoints
