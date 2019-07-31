@@ -3,3 +3,4 @@
 venv
 loan.csv
 .ipynb_checkpoints
+*.csv
