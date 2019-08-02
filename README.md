@@ -9,6 +9,8 @@ python3 -m venv venv
 
 2.进入 venv 虚拟环境
 source venv/bin/active
+开启 jupyter server
+jupyter notebook
 
 3.安装依赖库
 pip install -r requirements.txt
