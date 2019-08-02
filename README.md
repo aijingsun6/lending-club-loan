@@ -54,3 +54,10 @@ Covariance Type:            nonrobust   LLR p-value:                     0.000
 
 
 ```
+
+### 报告
+模板 [link](https://github.com/udacity/AIPNDCapstone-cn/blob/master/AIPND%20Capstone%20Template.ipynb)
+
+[本次报告](./lending-club-loan.ipynb)
+
+有些内容需要自行修改
