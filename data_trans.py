@@ -70,11 +70,7 @@ def data_trans():
     df['risk'] = df.apply(calc_risk, axis=1)
     del df['loan_status']
     df['pay_ratio'] = df.apply(calc_pay_ratio, axis=1)
-    del df['installment']
-    del df['annual_inc']
-
     df['emp_length'] = df.apply(calc_emp_length, axis=1)
-
     df.to_csv(target_path)
     print("save data to {0}".format(target_path))
 
